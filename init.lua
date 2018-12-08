@@ -1,10 +1,10 @@
 --will warn the user that this mod is destructive
 for i = 1,20 do
-   print("!!!WARNING, THE TORNADO MOD WILL DESTROY YOUR MAP, REMOVE IF IN CREATIVE WORLD!!!")
+   print("!!!WARNING, THE TORNADO MOD CAN DESTROY YOUR MAP!!!")
 end
 minetest.after(3, function()
    for i = 1,20 do
-      print("!!!WARNING, THE TORNADO MOD WILL DESTROY YOUR MAP, REMOVE IF IN CREATIVE WORLD!!!")
+      print("!!!WARNING, THE TORNADO MOD CAN DESTROY YOUR MAP!!!")
    end
 end)
 
