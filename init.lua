@@ -1,4 +1,4 @@
---give tons of warning
+--will warn the user that this mod is destructive
 for i = 1,20 do
    print("!!!WARNING, THE TORNADO MOD WILL DESTROY YOUR MAP, REMOVE IF IN CREATIVE WORLD!!!")
 end
@@ -72,7 +72,7 @@ minetest.override_item("default:stick", {
 })
 
 
---destroy the terrain
+--destroys blocks
 function tornado_destruction(pos,self)
    if math.random() > 0.3 then
       return
